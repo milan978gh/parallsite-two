@@ -9,7 +9,7 @@
 html, body{
     font-family: Tahoma, sans-serif;
     height: 100%;
-    color: #333;
+    color: #002400;
 }
 .pimg1, .pimg2, .pimg3{
     position: relative;
@@ -35,11 +35,25 @@ html, body{
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #ddd;
     font-size: 2rem;
     letter-spacing: .3rem;
 }
 .ptext .text-sign{
     background-color: #60992d;
     padding: 5px 30px;
+}
+.section{
+    background-color: #e2f0d7;
+    text-align: center;
+    padding: 50px 100px;
+}
+.section h2{
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+.section p{
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
