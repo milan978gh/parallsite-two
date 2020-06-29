@@ -6,3 +6,40 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+html, body{
+    font-family: Tahoma, sans-serif;
+    height: 100%;
+    color: #333;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url(../img/pic-1.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(../img/pic-3.jpg);
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url(../img/pic-2.jpg);
+    min-height: 500px;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+}
+.ptext .text-sign{
+    background-color: #60992d;
+    padding: 5px 30px;
+}
